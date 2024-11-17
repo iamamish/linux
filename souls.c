@@ -39,7 +39,7 @@ int main(int level) {
 		//printf("soulCount2 = %f\n", soulCount2);
 		//printf("soulCount3 = %f\n", soulCount3);
 
-		printf("%d\t %f\t %f\t\n", a, round(totalSouls),  round(invasionReward));
+		printf("%d\t %d\t %d\t\n", a, (int)(round(totalSouls)),  (int)(round(invasionReward)));
 	}
 
 	return 0;
